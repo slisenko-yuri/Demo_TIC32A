@@ -101,12 +101,11 @@
 #elif defined(__AVR_ATmega16U4__) || defined(__AVR_ATmega32U4__) ||\
 	defined(__AVR_ATmega32U6__) || defined(__AVR_ATmega64__) ||\
 	defined(__AVR_ATmega64A__) || defined(__AVR_ATmega640__) ||\
-	defined(__AVR_ATmega644A__) || defined(__AVR_ATmega644P__) ||\
-	defined(__AVR_ATmega644PA__) || defined(__AVR_ATmega128__) ||\
-	defined(__AVR_ATmega128A__) || defined(__AVR_ATmega1280__) ||\
-	defined(__AVR_ATmega1281__) || defined(__AVR_ATmega2560__) ||\
-	defined(__AVR_ATmega2561__) || defined(__AVR_AT90CAN32__) ||\
-	defined(__AVR_AT90CAN64__) || defined(__AVR_AT90CAN128__) ||\
+	defined(__AVR_ATmega128__) || defined(__AVR_ATmega128A__) ||\
+	defined(__AVR_ATmega1280__) || defined(__AVR_ATmega1281__) ||\
+	defined(__AVR_ATmega2560__) || defined(__AVR_ATmega2561__) ||\
+	defined(__AVR_AT90CAN32__) || defined(__AVR_AT90CAN64__) ||\
+	defined(__AVR_AT90CAN128__) ||\
 	defined(__AVR_AT90USB646__) || defined(__AVR_AT90USB647__) ||\
 	defined(__AVR_AT90USB1286__) || defined(__AVR_AT90USB1287__)
 #define SDA	D,1,H	// Порт D, бит 1
@@ -117,9 +116,10 @@
 	defined(__AVR_ATmega164PA__) || defined(__AVR_ATmega32__) ||\
 	defined(__AVR_ATmega32A__) || defined(__AVR_ATmega324PA__) ||\
 	defined(__AVR_ATmega324P__) || defined(__AVR_ATmega324A__) ||\
-	defined(__AVR_ATmega644__) || defined(__AVR_ATmega1284__) ||\
-	defined(__AVR_ATmega1284P__) || defined(__AVR_ATmega8535__) ||\
-	defined(__AVR_AT90S8535__)
+	defined(__AVR_ATmega644A__) || defined(__AVR_ATmega644P__) ||\
+	defined(__AVR_ATmega644PA__) || defined(__AVR_ATmega644__) ||\
+	defined(__AVR_ATmega1284__) || defined(__AVR_ATmega1284P__) ||\
+	defined(__AVR_ATmega8535__) || defined(__AVR_AT90S8535__)
 #define SDA	C,1,H	// Порт C, бит 1
 #define SCL	C,0,H	// Порт C, бит 0
 #endif
